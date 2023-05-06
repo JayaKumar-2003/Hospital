@@ -1,0 +1,56 @@
+.NavBar {
+    display: flex;
+    flex-direction: column;
+    background-color: #424242;
+    gap: 1rem;
+}
+.First_layer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    color: white;
+    
+}
+.Second_layer {
+    display:flex;
+}
+.Left {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.Right {
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+}
+.Home-content {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
+.Home-content  img {
+    height: 30px;
+    width: 30px;
+}
+
+
+.Blog{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.Blog  img {
+    height: 30px;
+    width: 30px;
+}
+.Right div{
+    width:auto;
+    padding: 0px 10px 0px 10px;
+}
+
+.brand-content {
+    display: flex;
+}
